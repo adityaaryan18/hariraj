@@ -1,0 +1,4 @@
+# Netlify (optional alternative to GitHub Pages): publishes the "docs" folder.
+# Reservation form submissions appear under Site → Forms → "reservation".
+[build]
+  publish = "docs"

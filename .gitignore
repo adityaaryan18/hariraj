@@ -1,0 +1,12 @@
+# Original, unoptimised source photos (~55 MB). The website uses the
+# optimised copies in docs/assets/img/, so these don't need to be online.
+Food/
+Menu/
+Restraunt pics/
+*.mp4
+
+# Local tooling / OS files
+.claude/
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,676 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Hariraj — The Veg Restaurant | Civic Centre, Bhilai</title>
+  <meta name="description" content="Hariraj (हरि राज) — Bhilai's beloved pure-veg restaurant at Civic Centre. South Indian, Punjabi, Tandoor, Chinese, sundaes and more. Celebrate birthdays and anniversaries with us — reserve your table online." />
+  <meta name="theme-color" content="#140d0b" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hariraj — The Veg Restaurant, Bhilai" />
+  <meta property="og:description" content="Pure-veg dining at Civic Centre, Bhilai. Reserve your table for family dinners, birthdays and anniversaries." />
+  <!-- Link-preview image for WhatsApp/Facebook: must be the full live URL. Change if your GitHub username/repo differ. -->
+  <meta property="og:url" content="https://adityaaryan18.github.io/hariraj/" />
+  <meta property="og:image" content="https://adityaaryan18.github.io/hariraj/assets/img/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Jost:wght@300;400;500;600&family=Tiro+Devanagari+Hindi:ital@0;1&family=Yatra+One&display=swap" rel="stylesheet" />
+
+  <link rel="preload" as="image" href="assets/img/exterior-1280.webp" imagesrcset="assets/img/exterior-mobile.webp 1000w, assets/img/exterior-1280.webp 1280w, assets/img/exterior-2400.webp 2400w" imagesizes="100vw" />
+  <link rel="stylesheet" href="assets/css/style.css?v=3" />
+  <script>document.documentElement.classList.add('js')</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Hariraj — The Veg Restaurant",
+    "alternateName": "हरि राज",
+    "image": "assets/img/og-image.jpg",
+    "servesCuisine": ["Indian", "South Indian", "Punjabi", "Indo-Chinese", "Vegetarian"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1-4, Civic Centre",
+      "addressLocality": "Bhilai",
+      "addressRegion": "Chhattisgarh",
+      "postalCode": "490006",
+      "addressCountry": "IN"
+    },
+    "telephone": "+91-788-2264638",
+    "openingHours": "Mo-Su 11:00-23:00",
+    "acceptsReservations": "True",
+    "menu": "#menu",
+    "priceRange": "₹₹"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <svg class="logo logo--draw" viewBox="0 0 200 200">
+        <circle class="logo-ring" cx="100" cy="100" r="82" />
+        <text class="logo-hi" x="86" y="100" text-anchor="middle">हरि</text>
+        <text class="logo-hi" x="116" y="146" text-anchor="middle">राज</text>
+      </svg>
+      <p class="preloader-text">The Veg Restaurant · Bhilai</p>
+    </div>
+  </div>
+
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav-brand" aria-label="Hariraj home">
+      <svg class="logo logo--sm" viewBox="0 0 200 200" aria-hidden="true">
+        <circle class="logo-orbit" cx="100" cy="100" r="96" />
+        <circle class="logo-ring" cx="100" cy="100" r="82" />
+        <text class="logo-hi" x="86" y="100" text-anchor="middle">हरि</text>
+        <text class="logo-hi" x="116" y="146" text-anchor="middle">राज</text>
+      </svg>
+      <span class="nav-brand-text">Hariraj<small>The Veg Restaurant</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#signatures">Signatures</a>
+      <a href="#menu">Menu</a>
+      <a href="#ambience">Ambience</a>
+      <a href="#celebrate">Celebrate</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="#reserve" class="btn btn--primary btn--sm nav-cta">Reserve a Table</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav>
+      <a href="#signatures">Signatures</a>
+      <a href="#menu">Menu</a>
+      <a href="#ambience">Ambience</a>
+      <a href="#celebrate">Celebrate</a>
+      <a href="#reserve">Reserve</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <p class="mobile-menu-hi">स्वाद जो दिल को छू जाए</p>
+  </div>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true">
+        <picture>
+          <source media="(max-width: 700px)" srcset="assets/img/exterior-mobile.webp" />
+          <img src="assets/img/exterior-1280.webp" srcset="assets/img/exterior-1280.webp 1280w, assets/img/exterior-2400.webp 2400w" sizes="100vw" alt="" fetchpriority="high" />
+        </picture>
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-embers" aria-hidden="true"></div>
+
+      <div class="hero-inner container">
+        <div class="hero-copy">
+          <div class="hero-badge" data-hero-anim>
+            <span class="veg-mark" aria-hidden="true"></span>
+            100% Pure Vegetarian · Civic Centre, Bhilai
+          </div>
+
+          <a href="#home" class="hero-logo" data-hero-anim aria-label="Hariraj">
+            <svg class="logo logo--hero" viewBox="0 0 200 200" aria-hidden="true">
+              <circle class="logo-orbit" cx="100" cy="100" r="96" />
+              <circle class="logo-ring" cx="100" cy="100" r="82" />
+              <text class="logo-hi" x="86" y="100" text-anchor="middle">हरि</text>
+              <text class="logo-hi" x="116" y="146" text-anchor="middle">राज</text>
+            </svg>
+          </a>
+
+          <h1 class="hero-title" data-hero-anim>
+            <span class="hero-title-small">Welcome to</span>
+            Hariraj<em>where every meal feels like a celebration.</em>
+          </h1>
+          <p class="hero-hi" data-hero-anim>स्वाद जो दिल को छू जाए</p>
+          <p class="hero-sub" data-hero-anim>Crisp dosas, smoky tandoor, wok-fired Chinese and sundaes worth saving room for — served warm, in the heart of Bhilai.</p>
+
+          <div class="hero-ctas" data-hero-anim>
+            <a href="#reserve" class="btn btn--primary btn--glow">
+              Reserve your table
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="#menu" class="btn btn--ghost">Explore the menu</a>
+          </div>
+
+          <div class="hero-meta" data-hero-anim>
+            <span class="open-status" id="openStatus"><i></i><b>Open daily</b> · 11 AM – 11 PM</span>
+            <a class="hero-meta-link" href="tel:+917882264638" data-phone>Call 0788 226 4638</a>
+          </div>
+        </div>
+
+        <div class="hero-plates" aria-label="Some of our favourite dishes">
+          <div class="plate-orbit" aria-hidden="true"></div>
+          <figure class="plate plate--1" style="--d:0s">
+            <img src="assets/img/paneer-tikka-700.webp" alt="Paneer tikka with mint chutney" width="700" height="523" />
+            <figcaption>Paneer Tikka</figcaption>
+          </figure>
+          <figure class="plate plate--2" style="--d:-2s">
+            <img src="assets/img/masala-dosa-700.webp" alt="Masala dosa with sambar and chutney" width="700" height="495" />
+            <figcaption>Masala Dosa</figcaption>
+          </figure>
+          <figure class="plate plate--3" style="--d:-4s">
+            <img src="assets/img/chole-bhature-700.webp" alt="Chole bhature" width="700" height="523" />
+            <figcaption>Chole Bhature</figcaption>
+          </figure>
+          <figure class="plate plate--4" style="--d:-1s">
+            <img src="assets/img/hara-bhara-kabab-700.webp" alt="Hara bhara kabab" width="700" height="523" />
+            <figcaption>Hara Bhara Kabab</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <a href="#signatures" class="scroll-cue" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Masala Dosa</span><i>✦</i><span class="hi">छोले भटूरे</span><i>✦</i><span>Paneer Tikka</span><i>✦</i><span class="hi">मलाई कोफ़्ता</span><i>✦</i><span>Veg Manchurian</span><i>✦</i><span class="hi">रसमलाई</span><i>✦</i><span>Hakka Noodles</span><i>✦</i><span class="hi">गुलाब जामुन</span><i>✦</i><span>Chocolate Brownie Sundae</span><i>✦</i>
+        <span>Masala Dosa</span><i>✦</i><span class="hi">छोले भटूरे</span><i>✦</i><span>Paneer Tikka</span><i>✦</i><span class="hi">मलाई कोफ़्ता</span><i>✦</i><span>Veg Manchurian</span><i>✦</i><span class="hi">रसमलाई</span><i>✦</i><span>Hakka Noodles</span><i>✦</i><span class="hi">गुलाब जामुन</span><i>✦</i><span>Chocolate Brownie Sundae</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ SIGNATURES ============ -->
+    <section class="section signatures" id="signatures">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">From our kitchen</p>
+          <h2 class="section-title">Plates people <em>come back for</em></h2>
+          <p class="section-hi">हर निवाले में घर जैसा स्वाद</p>
+        </header>
+
+        <div class="dish-grid">
+          <article class="dish dish--xl" data-reveal data-tilt>
+            <div class="dish-media">
+              <img src="assets/img/paneer-tikka-1400.webp" alt="Paneer tikka" loading="lazy" width="1400" height="1045" />
+              <div class="steam" aria-hidden="true"><i></i><i></i><i></i></div>
+            </div>
+            <div class="dish-body">
+              <span class="dish-tag">From the Tandoor</span>
+              <h3>Paneer Tikka <span class="hi">पनीर टिक्का</span></h3>
+              <p>Charred at the edges, smoky at heart — marinated paneer kissed by the tandoor, with fresh mint chutney.</p>
+            </div>
+          </article>
+
+          <article class="dish" data-reveal data-tilt>
+            <div class="dish-media">
+              <img src="assets/img/masala-dosa-700.webp" alt="Masala dosa" loading="lazy" width="700" height="495" />
+              <div class="steam" aria-hidden="true"><i></i><i></i><i></i></div>
+            </div>
+            <div class="dish-body">
+              <span class="dish-tag">South Indian</span>
+              <h3>Masala Dosa <span class="hi">मसाला डोसा</span></h3>
+              <p>Golden, paper-crisp and folded over spiced potato.</p>
+            </div>
+          </article>
+
+          <article class="dish" data-reveal data-tilt>
+            <div class="dish-media">
+              <img src="assets/img/chole-bhature-700.webp" alt="Chole bhature" loading="lazy" width="700" height="523" />
+              <div class="steam" aria-hidden="true"><i></i><i></i><i></i></div>
+            </div>
+            <div class="dish-body">
+              <span class="dish-tag">Punjabi</span>
+              <h3>Chole Bhature <span class="hi">छोले भटूरे</span></h3>
+              <p>Pillowy bhature, puffed to perfection, with tangy chole.</p>
+            </div>
+          </article>
+
+          <article class="dish" data-reveal data-tilt>
+            <div class="dish-media">
+              <img src="assets/img/hara-bhara-kabab-700.webp" alt="Hara bhara kabab" loading="lazy" width="700" height="523" />
+            </div>
+            <div class="dish-body">
+              <span class="dish-tag">Starter</span>
+              <h3>Hara Bhara Kabab <span class="hi">हरा भरा कबाब</span></h3>
+              <p>Spinach, peas and herbs, pan-seared till crisp.</p>
+            </div>
+          </article>
+
+          <article class="dish dish--wide" data-reveal data-tilt>
+            <div class="dish-media">
+              <img src="assets/img/gobi-manchurian-1400.webp" alt="Gobhi chilly Manchurian" loading="lazy" width="1400" height="990" />
+              <div class="steam" aria-hidden="true"><i></i><i></i><i></i></div>
+            </div>
+            <div class="dish-body">
+              <span class="dish-tag">Indo-Chinese</span>
+              <h3>Gobhi Chilly <span class="hi">गोभी चिली</span></h3>
+              <p>Crunchy cauliflower tossed in a glossy, garlicky glaze with spring onions — gone in minutes.</p>
+            </div>
+          </article>
+
+          <article class="dish" data-reveal data-tilt>
+            <div class="dish-media">
+              <img src="assets/img/chilli-paneer-700.webp" alt="Chilli paneer" loading="lazy" width="700" height="495" />
+              <div class="steam" aria-hidden="true"><i></i><i></i><i></i></div>
+            </div>
+            <div class="dish-body">
+              <span class="dish-tag">Wok-tossed</span>
+              <h3>Chilli Paneer <span class="hi">चिली पनीर</span></h3>
+              <p>Soft paneer in a fiery, tangy sauce.</p>
+            </div>
+          </article>
+
+          <article class="dish" data-reveal data-tilt>
+            <div class="dish-media">
+              <img src="assets/img/veg-fried-rice-700.webp" alt="Veg fried rice" loading="lazy" width="700" height="495" />
+            </div>
+            <div class="dish-body">
+              <span class="dish-tag">Wok-tossed</span>
+              <h3>Veg Fried Rice <span class="hi">फ्राइड राइस</span></h3>
+              <p>Smoky basmati, crunchy veggies, fresh greens.</p>
+            </div>
+          </article>
+
+          <article class="dish" data-reveal data-tilt>
+            <div class="dish-media">
+              <img src="assets/img/manchurian-spring-roll-700.webp" alt="Veg Manchurian with spring rolls" loading="lazy" width="700" height="523" />
+            </div>
+            <div class="dish-body">
+              <span class="dish-tag">Starter</span>
+              <h3>Manchurian &amp; Rolls <span class="hi">मंचूरियन</span></h3>
+              <p>Crispy rolls, saucy Manchurian — the classic duo.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="center-cta" data-reveal>
+          <a href="#menu" class="btn btn--ghost">See the full menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="section menu" id="menu">
+      <div class="menu-paper" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-head section-head--dark" data-reveal>
+          <p class="eyebrow">The Menu · मेन्यू</p>
+          <h2 class="section-title">Something for <em>every craving</em></h2>
+          <p class="section-sub">Open the book and turn the pages. Hover over a section name to see the dish. Everything is 100% vegetarian and cooked fresh to order.</p>
+        </header>
+
+        <div class="menu-tools" data-reveal>
+          <div class="menu-search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input type="search" id="menuSearch" placeholder="Craving something? Try “dosa”, “paneer”, “sundae”…" autocomplete="off" aria-label="Search the menu" aria-controls="searchResults" />
+            <ul class="search-results" id="searchResults" role="listbox" hidden></ul>
+          </div>
+          <span class="menu-count" id="menuCount"></span>
+        </div>
+
+        <div class="menu-chips" id="menuChips" data-reveal aria-label="Jump to a section"></div>
+
+        <div class="book-viewport" data-reveal>
+          <div class="book at-start" id="book" aria-roledescription="menu book"></div>
+        </div>
+
+        <div class="book-controls">
+          <button class="book-btn" id="bookPrev" type="button" aria-label="Previous page"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+          <div class="book-status" id="bookStatus" aria-live="polite">Cover<small>Tap to open</small></div>
+          <button class="book-btn" id="bookNext" type="button" aria-label="Next page"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+        </div>
+        <p class="book-hint">Click a page, swipe, or use the ← → keys to turn</p>
+
+        <p class="menu-note">Prices in ₹. Please allow 20–25 minutes for à-la-carte dishes — everything is prepared fresh when you order. Prices may change; please confirm at the restaurant.</p>
+      </div>
+    </section>
+
+    <!-- ============ AMBIENCE ============ -->
+    <section class="ambience" id="ambience">
+      <div class="amb-sticky">
+        <div class="amb-media" id="ambMedia">
+          <img src="assets/img/interior-2000.webp" srcset="assets/img/interior-1000.webp 1000w, assets/img/interior-2000.webp 2000w" sizes="100vw" alt="Hariraj dining room with warm lights, wooden pillars and plush sofa seating" loading="lazy" />
+          <div class="amb-shade" aria-hidden="true"></div>
+        </div>
+        <div class="container amb-content">
+          <div class="amb-card" data-reveal>
+            <p class="eyebrow">The Ambience</p>
+            <h2 class="section-title">Step inside. <em>Slow down.</em></h2>
+            <p class="section-hi">सुकून भरा माहौल, अपनों का साथ</p>
+            <p>Warm golden lights, rich wooden pillars and plush sofa booths — a dining room made for long conversations, family dinners and second helpings.</p>
+            <ul class="amb-features">
+              <li><span>✦</span>Plush sofa booths &amp; family tables</li>
+              <li><span>✦</span>Warm, softly lit dining hall</li>
+              <li><span>✦</span>Great for groups &amp; get-togethers</li>
+              <li><span>✦</span>A strictly pure-veg kitchen</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="stats" data-reveal>
+          <div class="stat"><b data-count="100">0</b><span>% pure vegetarian</span></div>
+          <div class="stat"><b data-count="0" id="dishCount">0</b><span>dishes on the menu</span></div>
+          <div class="stat"><b data-count="12">0</b><span>hours open, every day</span></div>
+          <div class="stat"><b data-count="6">0</b><span>cuisines under one roof</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CELEBRATE ============ -->
+    <section class="section celebrate" id="celebrate">
+      <svg class="toran" viewBox="0 0 1200 120" preserveAspectRatio="xMidYMin slice" aria-hidden="true" id="toran"></svg>
+      <div class="sparkles" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow">Moments worth celebrating</p>
+          <h2 class="section-title">Celebrate your moments <em>here</em></h2>
+          <p class="section-hi section-hi--lg">अपने ख़ास पलों का जश्न यहाँ मनाइए</p>
+        </header>
+
+        <div class="celebrate-grid">
+          <article class="occasion" data-reveal data-occasion="Anniversary">
+            <div class="occasion-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><circle cx="24" cy="38" r="14"/><circle cx="40" cy="38" r="14"/><path d="M20 18l4-8h16l4 8-12 8z"/></svg>
+            </div>
+            <h3>Anniversary</h3>
+            <p class="occasion-hi">सालगिरह</p>
+            <p>A cosy corner, your favourite dishes and a dessert to share — for the one who’s been by your side.</p>
+            <button class="btn btn--ghost btn--sm" type="button">Plan our anniversary</button>
+          </article>
+
+          <article class="occasion occasion--feature" data-reveal data-occasion="Birthday">
+            <div class="occasion-ribbon">Most loved</div>
+            <div class="occasion-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M10 54h44M14 54V36h36v18M18 36v-8h28v8"/><path d="M24 28v-6M32 28v-6M40 28v-6"/><path d="M24 16c-2-3 0-6 0-6s2 3 0 6zM32 16c-2-3 0-6 0-6s2 3 0 6zM40 16c-2-3 0-6 0-6s2 3 0 6z"/><path d="M14 44c4 3 8 3 12 0s8-3 12 0 8 3 12 0"/></svg>
+            </div>
+            <h3>Birthday</h3>
+            <p class="occasion-hi">जन्मदिन</p>
+            <p>Cake, candles, laughter and the whole family at one long table. Bring the cake — we’ll bring the feast.</p>
+            <button class="btn btn--primary btn--sm" type="button">Book a birthday table</button>
+          </article>
+
+          <article class="occasion" data-reveal data-occasion="Special Occasion">
+            <div class="occasion-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64"><path d="M32 6l5 15h16l-13 9 5 15-13-9-13 9 5-15-13-9h16z"/><path d="M10 52l6-6M54 52l-6-6M32 58v-6"/></svg>
+            </div>
+            <h3>Special Occasions</h3>
+            <p class="occasion-hi">ख़ास मौके</p>
+            <p>Promotions, reunions, festivals, kitty parties or a simple “we made it” — gather your people, we’ll set the table.</p>
+            <button class="btn btn--ghost btn--sm" type="button">Plan a get-together</button>
+          </article>
+        </div>
+
+        <p class="celebrate-note" data-reveal>Tell us the occasion when you reserve, and our team will help make it memorable. <span class="hi">आपकी ख़ुशी, हमारी ज़िम्मेदारी।</span></p>
+      </div>
+    </section>
+
+    <!-- ============ RESERVATION ============ -->
+    <section class="section reserve" id="reserve">
+      <div class="reserve-bg" aria-hidden="true"><img src="assets/img/interior-1000.webp" alt="" loading="lazy" /></div>
+      <div class="container reserve-grid">
+        <div class="reserve-pitch" data-reveal>
+          <p class="eyebrow">Reservation Corner</p>
+          <h2 class="section-title">Reserve your <em>table now!</em></h2>
+          <p class="section-hi">आपकी टेबल आपका इंतज़ार कर रही है</p>
+          <p class="reserve-lead">Skip the wait at the door. Pick a time, tell us who’s coming, and walk straight in to a table that’s ready for you.</p>
+
+          <div class="urgency"><i></i>Weekend evenings fill up fast — book a little early.</div>
+
+          <ul class="perks">
+            <li>
+              <span class="perk-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <div><b>Takes 30 seconds</b><small>Three quick steps — no sign-up, no app.</small></div>
+            </li>
+            <li>
+              <span class="perk-icon"><svg viewBox="0 0 24 24"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H8a2.5 2.5 0 0 1 0-5c3 0 4 5 4 5zM12 7h4a2.5 2.5 0 0 0 0-5c-3 0-4 5-4 5z"/></svg></span>
+              <div><b>Celebrating something?</b><small>Tell us and we’ll help make it special.</small></div>
+            </li>
+            <li>
+              <span class="perk-icon"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></span>
+              <div><b>No booking fee</b><small>Plans changed? Just give us a call.</small></div>
+            </li>
+            <li>
+              <span class="perk-icon"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span>
+              <div><b>Personal confirmation</b><small>Our team confirms your table by call or WhatsApp.</small></div>
+            </li>
+          </ul>
+
+          <p class="reserve-call">Prefer to talk? <a href="tel:+917882264638" data-phone>0788 226 4638</a></p>
+        </div>
+
+        <div class="reserve-card" data-reveal>
+          <form class="rform" id="reserveForm" name="reservation" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+            <input type="hidden" name="form-name" value="reservation" />
+            <p class="hp"><label>Don’t fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
+            <input type="hidden" name="date" id="fDate" />
+            <input type="hidden" name="time" id="fTime" />
+            <input type="hidden" name="guests" id="fGuests" value="2" />
+            <input type="hidden" name="occasion" id="fOccasion" value="Just dining" />
+            <input type="hidden" name="seating" id="fSeating" value="No preference" />
+            <input type="hidden" name="booking_ref" id="fRef" />
+
+            <div class="rform-progress" aria-hidden="true">
+              <div class="rform-steps">
+                <span class="is-active" data-stepdot="1"><b>1</b>When</span>
+                <span data-stepdot="2"><b>2</b>Who</span>
+                <span data-stepdot="3"><b>3</b>You</span>
+              </div>
+              <div class="rform-bar"><i id="rformBar"></i></div>
+            </div>
+
+            <!-- STEP 1 -->
+            <fieldset class="rstep is-active" data-step="1">
+              <legend>When would you like to come?</legend>
+              <div class="rlabel">Pick a date</div>
+              <div class="date-strip" id="dateStrip" role="radiogroup" aria-label="Date"></div>
+              <label class="other-date">
+                <span>Another date?</span>
+                <input type="date" id="dateOther" aria-label="Choose another date" />
+              </label>
+
+              <div class="rlabel">Pick a time</div>
+              <div class="slots" id="slots"></div>
+              <p class="rerror" data-error="1"></p>
+
+              <div class="rnav">
+                <span></span>
+                <button type="button" class="btn btn--primary" data-next>Continue <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+              </div>
+            </fieldset>
+
+            <!-- STEP 2 -->
+            <fieldset class="rstep" data-step="2">
+              <legend>Who’s joining you?</legend>
+              <div class="rlabel">Guests</div>
+              <div class="guests">
+                <button type="button" class="guest-btn" data-guest="-1" aria-label="Fewer guests">−</button>
+                <div class="guest-count"><b id="guestNum">2</b><span>guests</span></div>
+                <button type="button" class="guest-btn" data-guest="1" aria-label="More guests">+</button>
+              </div>
+              <div class="guest-faces" id="guestFaces" aria-hidden="true"></div>
+              <p class="rhint" id="guestHint"></p>
+
+              <div class="rlabel">What’s the occasion?</div>
+              <div class="chips" id="occasionChips" role="radiogroup" aria-label="Occasion">
+                <button type="button" class="chip is-active" data-val="Just dining">🍽️ Just dining</button>
+                <button type="button" class="chip" data-val="Birthday">🎂 Birthday</button>
+                <button type="button" class="chip" data-val="Anniversary">💞 Anniversary</button>
+                <button type="button" class="chip" data-val="Family get-together">👨‍👩‍👧 Family</button>
+                <button type="button" class="chip" data-val="Special Occasion">✨ Special occasion</button>
+                <button type="button" class="chip" data-val="Business">💼 Business</button>
+              </div>
+
+              <div class="rlabel">Seating preference</div>
+              <div class="chips chips--sm" id="seatingChips" role="radiogroup" aria-label="Seating">
+                <button type="button" class="chip is-active" data-val="No preference">No preference</button>
+                <button type="button" class="chip" data-val="Sofa booth">Sofa booth</button>
+                <button type="button" class="chip" data-val="Family table">Family table</button>
+                <button type="button" class="chip" data-val="Quiet corner">Quiet corner</button>
+              </div>
+
+              <div class="rnav">
+                <button type="button" class="btn btn--text" data-prev>← Back</button>
+                <button type="button" class="btn btn--primary" data-next>Continue <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+              </div>
+            </fieldset>
+
+            <!-- STEP 3 -->
+            <fieldset class="rstep" data-step="3">
+              <legend>Almost there — your details</legend>
+              <div class="rsummary" id="rSummary"></div>
+
+              <div class="field">
+                <input type="text" name="name" id="fName" placeholder=" " autocomplete="name" required />
+                <label for="fName">Your name</label>
+              </div>
+              <div class="field">
+                <input type="tel" name="phone" id="fPhone" placeholder=" " autocomplete="tel" inputmode="tel" required />
+                <label for="fPhone">Mobile number</label>
+              </div>
+              <div class="field">
+                <input type="email" name="email" id="fEmail" placeholder=" " autocomplete="email" />
+                <label for="fEmail">Email (optional)</label>
+              </div>
+              <div class="field">
+                <textarea name="message" id="fMsg" rows="2" placeholder=" "></textarea>
+                <label for="fMsg">Anything we should know? (optional)</label>
+              </div>
+              <p class="rerror" data-error="3"></p>
+
+              <div class="rnav">
+                <button type="button" class="btn btn--text" data-prev>← Back</button>
+                <button type="submit" class="btn btn--primary btn--glow" id="rSubmit">
+                  <span class="btn-label">Confirm my table</span>
+                  <span class="btn-spinner" aria-hidden="true"></span>
+                </button>
+              </div>
+              <p class="rfine">By booking you agree to be contacted about this reservation only. We never share your number.</p>
+            </fieldset>
+          </form>
+
+          <!-- SUCCESS TICKET -->
+          <div class="ticket" id="ticket" hidden>
+            <div class="ticket-check" aria-hidden="true">
+              <svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24"/><path d="M15 27l7 7 15-16"/></svg>
+            </div>
+            <h3 id="ticketTitle">Your table is requested!</h3>
+            <p class="ticket-hi">धन्यवाद! हम जल्द ही आपसे संपर्क करेंगे।</p>
+            <p class="ticket-msg" id="ticketMsg"></p>
+            <div class="ticket-stub">
+              <div class="ticket-row"><span>Booking ref</span><b id="tRef"></b></div>
+              <div class="ticket-row"><span>Name</span><b id="tName"></b></div>
+              <div class="ticket-row"><span>Date</span><b id="tDate"></b></div>
+              <div class="ticket-row"><span>Time</span><b id="tTime"></b></div>
+              <div class="ticket-row"><span>Guests</span><b id="tGuests"></b></div>
+              <div class="ticket-row"><span>Occasion</span><b id="tOcc"></b></div>
+            </div>
+            <div class="ticket-actions">
+              <a class="btn btn--primary btn--sm" id="tWhatsApp" target="_blank" rel="noopener" hidden>Confirm on WhatsApp</a>
+              <a class="btn btn--ghost btn--sm" id="tCall" href="tel:+917882264638">Call the restaurant</a>
+              <button class="btn btn--ghost btn--sm" type="button" id="tCal">Add to calendar</button>
+            </div>
+            <button class="btn btn--text" type="button" id="tAgain">Make another booking</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VISIT ============ -->
+    <section class="section visit" id="visit">
+      <div class="container visit-grid">
+        <div class="visit-info" data-reveal>
+          <p class="eyebrow">Find us</p>
+          <h2 class="section-title">Come hungry. <em>Leave happy.</em></h2>
+          <p class="section-hi">आइए, पधारिए</p>
+
+          <dl class="visit-list">
+            <div>
+              <dt>Address</dt>
+              <dd id="addr">1-4, Civic Centre, Bhilai, Chhattisgarh 490006</dd>
+            </div>
+            <div>
+              <dt>Hours</dt>
+              <dd>Every day · 11:00 AM – 11:00 PM</dd>
+            </div>
+            <div>
+              <dt>Call</dt>
+              <dd><a href="tel:+917882264638" data-phone>0788 226 4638</a> · <a href="tel:+917882261101" data-phone2>0788 226 1101</a></dd>
+            </div>
+          </dl>
+          <div class="visit-ctas">
+            <a class="btn btn--primary btn--sm" id="dirLink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hariraj%20Restaurant%2C%20Civic%20Centre%2C%20Bhilai">Get directions</a>
+            <a class="btn btn--ghost btn--sm" href="#reserve">Reserve a table</a>
+          </div>
+        </div>
+        <div class="visit-map" data-reveal>
+          <iframe id="mapFrame" title="Map showing Hariraj, Civic Centre, Bhilai" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-src="https://maps.google.com/maps?q=Hariraj%20Restaurant%2C%20Civic%20Centre%2C%20Bhilai&z=16&output=embed"></iframe>
+          <button type="button" class="map-load" id="mapLoad">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.3 7-12a7 7 0 0 0-14 0c0 5.7 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            Show map
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <svg class="logo logo--footer" viewBox="0 0 200 200" aria-hidden="true">
+          <circle class="logo-orbit" cx="100" cy="100" r="96" />
+          <circle class="logo-ring" cx="100" cy="100" r="82" />
+          <text class="logo-hi" x="86" y="100" text-anchor="middle">हरि</text>
+          <text class="logo-hi" x="116" y="146" text-anchor="middle">राज</text>
+        </svg>
+        <div>
+          <p class="footer-name">Hariraj</p>
+          <p class="footer-tag">The Veg Restaurant · स्वाद जो दिल को छू जाए</p>
+        </div>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#signatures">Signatures</a>
+        <a href="#menu">Menu</a>
+        <a href="#ambience">Ambience</a>
+        <a href="#celebrate">Celebrate</a>
+        <a href="#reserve">Reserve</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <div class="footer-contact">
+        <p>1-4, Civic Centre, Bhilai</p>
+        <p><a href="tel:+917882264638" data-phone>0788 226 4638</a></p>
+        <p id="footerEmail" hidden></p>
+        <p class="footer-social" id="footerSocial"></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year">2026</span> Hariraj. All rights reserved.</span>
+      <span class="veg-badge"><span class="veg-mark" aria-hidden="true"></span>100% Pure Vegetarian</span>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky action bar -->
+  <div class="mobile-bar" id="mobileBar">
+    <a href="tel:+917882264638" class="mobile-bar-call" data-phone aria-label="Call Hariraj">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+    </a>
+    <a href="#reserve" class="btn btn--primary mobile-bar-cta">Reserve a table</a>
+  </div>
+
+  <!-- Floating image for menu hover -->
+  <div class="hover-reveal" id="hoverReveal" aria-hidden="true"><div class="hover-reveal-inner"><img alt="" /></div></div>
+
+  <canvas class="confetti" id="confetti" aria-hidden="true"></canvas>
+
+  <script src="assets/js/config.js?v=3"></script>
+  <script src="assets/js/menu-data.js?v=3"></script>
+  <script src="assets/js/main.js?v=3"></script>
+</body>
+</html>
